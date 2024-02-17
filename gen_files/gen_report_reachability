@@ -1,0 +1,309 @@
+CPN Tools state space report for:
+/cygdrive/C/Users/Burak/OneDrive - Universiteit Antwerpen/Documenten/GenCPN/gen.cpn
+Report generated: Sat Feb 17 13:20:29 2024
+
+
+ Statistics
+------------------------------------------------------------------------
+
+  State Space
+     Nodes:  14
+     Arcs:   14
+     Secs:   0
+     Status: Full
+
+  Scc Graph
+     Nodes:  4
+     Arcs:   3
+     Secs:   0
+
+
+ Boundedness Properties
+------------------------------------------------------------------------
+
+  Best Integer Bounds
+                             Upper      Lower
+     New_Page'Belief_Base 1  1          0
+     New_Page'RootTocolorbucketU 1
+                             1          0
+     New_Page'RootTodecidecolorCV 1
+                             1          0
+     New_Page'RootTosamplecolor 1
+                             1          0
+     New_Page'RootTotoBuild 1
+                             1          0
+     New_Page'RootTotoPushF 1
+                             0          0
+     New_Page'colorbucket0 1 1          0
+     New_Page'colorbucket1 1 0          0
+     New_Page'colorbucket2 1 0          0
+     New_Page'colorbucket3 1 0          0
+     New_Page'decidecolor0 1 1          0
+     New_Page'decidecolor1 1 0          0
+     New_Page'goBluePosition11 1
+                             0          0
+     New_Page'goGreenPosition12 1
+                             0          0
+     New_Page'goRedPosition17 1
+                             0          0
+     New_Page'goYellowPosition10 1
+                             0          0
+     New_Page'goYellowPosition13 1
+                             0          0
+     New_Page'goYellowPosition14 1
+                             0          0
+     New_Page'goYellowPosition15 1
+                             0          0
+     New_Page'goYellowPosition16 1
+                             0          0
+     New_Page'goYellowPosition18 1
+                             1          0
+     New_Page'sampleColorAcc4 1
+                             1          0
+     New_Page'sampleColorAcx2 1
+                             1          0
+     New_Page'samplecolor0 1 1          0
+     New_Page'samplecolorF 1 0          0
+     New_Page'status0 1      0          0
+     New_Page'status1 1      1          0
+     New_Page'toBuild0 1     0          0
+     New_Page'toBuild1 1     1          0
+     New_Page'toPush0 1      0          0
+     New_Page'toPush1 1      0          0
+     New_Page'toPush2 1      0          0
+     New_Page'toPush3 1      0          0
+     New_Page'toPush4 1      0          0
+     New_Page'toPush5 1      0          0
+     New_Page'toPush6 1      0          0
+     New_Page'tostatus 1     1          0
+
+  Best Upper Multi-set Bounds
+     New_Page'Belief_Base 1
+                         1`(false,true,false,false,5)
+     New_Page'RootTocolorbucketU 1
+                         1`(false,true,true,false,5)
+     New_Page'RootTodecidecolorCV 1
+                         1`(false,true,false,false,5)
+     New_Page'RootTosamplecolor 1
+                         1`(false,true,false,false,5)
+     New_Page'RootTotoBuild 1
+                         1`(false,true,true,false,5)
+     New_Page'RootTotoPushF 1
+                         empty
+     New_Page'colorbucket0 1
+                         1`(false,true,true,false,5)
+     New_Page'colorbucket1 1
+                         empty
+     New_Page'colorbucket2 1
+                         empty
+     New_Page'colorbucket3 1
+                         empty
+     New_Page'decidecolor0 1
+                         1`(false,true,false,false,5)
+     New_Page'decidecolor1 1
+                         empty
+     New_Page'goBluePosition11 1
+                         empty
+     New_Page'goGreenPosition12 1
+                         empty
+     New_Page'goRedPosition17 1
+                         empty
+     New_Page'goYellowPosition10 1
+                         empty
+     New_Page'goYellowPosition13 1
+                         empty
+     New_Page'goYellowPosition14 1
+                         empty
+     New_Page'goYellowPosition15 1
+                         empty
+     New_Page'goYellowPosition16 1
+                         empty
+     New_Page'goYellowPosition18 1
+                         1`(false,true,false,false,5)
+     New_Page'sampleColorAcc4 1
+                         1`(false,true,true,false,5)
+     New_Page'sampleColorAcx2 1
+                         1`(false,true,false,false,5)
+     New_Page'samplecolor0 1
+                         1`(false,true,false,false,5)
+     New_Page'samplecolorF 1
+                         empty
+     New_Page'status0 1  empty
+     New_Page'status1 1  1`(false,true,false,false,5)
+     New_Page'toBuild0 1 empty
+     New_Page'toBuild1 1 1`(false,true,true,false,5)
+     New_Page'toPush0 1  empty
+     New_Page'toPush1 1  empty
+     New_Page'toPush2 1  empty
+     New_Page'toPush3 1  empty
+     New_Page'toPush4 1  empty
+     New_Page'toPush5 1  empty
+     New_Page'toPush6 1  empty
+     New_Page'tostatus 1 1`(false,true,false,false,5)
+
+  Best Lower Multi-set Bounds
+     New_Page'Belief_Base 1
+                         empty
+     New_Page'RootTocolorbucketU 1
+                         empty
+     New_Page'RootTodecidecolorCV 1
+                         empty
+     New_Page'RootTosamplecolor 1
+                         empty
+     New_Page'RootTotoBuild 1
+                         empty
+     New_Page'RootTotoPushF 1
+                         empty
+     New_Page'colorbucket0 1
+                         empty
+     New_Page'colorbucket1 1
+                         empty
+     New_Page'colorbucket2 1
+                         empty
+     New_Page'colorbucket3 1
+                         empty
+     New_Page'decidecolor0 1
+                         empty
+     New_Page'decidecolor1 1
+                         empty
+     New_Page'goBluePosition11 1
+                         empty
+     New_Page'goGreenPosition12 1
+                         empty
+     New_Page'goRedPosition17 1
+                         empty
+     New_Page'goYellowPosition10 1
+                         empty
+     New_Page'goYellowPosition13 1
+                         empty
+     New_Page'goYellowPosition14 1
+                         empty
+     New_Page'goYellowPosition15 1
+                         empty
+     New_Page'goYellowPosition16 1
+                         empty
+     New_Page'goYellowPosition18 1
+                         empty
+     New_Page'sampleColorAcc4 1
+                         empty
+     New_Page'sampleColorAcx2 1
+                         empty
+     New_Page'samplecolor0 1
+                         empty
+     New_Page'samplecolorF 1
+                         empty
+     New_Page'status0 1  empty
+     New_Page'status1 1  empty
+     New_Page'toBuild0 1 empty
+     New_Page'toBuild1 1 empty
+     New_Page'toPush0 1  empty
+     New_Page'toPush1 1  empty
+     New_Page'toPush2 1  empty
+     New_Page'toPush3 1  empty
+     New_Page'toPush4 1  empty
+     New_Page'toPush5 1  empty
+     New_Page'toPush6 1  empty
+     New_Page'tostatus 1 empty
+
+
+ Home Properties
+------------------------------------------------------------------------
+
+  Home Markings
+     11 [4,5,6,7,8,...]
+
+
+ Liveness Properties
+------------------------------------------------------------------------
+
+  Dead Markings
+     None
+
+  Dead Transition Instances
+     New_Page'RootTotoPushF 1
+     New_Page'colorbucket1TotoPush 1
+     New_Page'colorbucket2TotoPush 1
+     New_Page'colorbucket3Tosamplecolor 1
+     New_Page'decidecolor1Tosamplecolor 1
+     New_Page'samplecolorFTosamplecolorBack 1
+     New_Page'status0TostatusBack 1
+     New_Page'toBuild0Tosamplecolor 1
+     New_Page'toBuildTogoRedPosition17 1
+     New_Page'toPush0Tosamplecolor 1
+     New_Page'toPush1Tosamplecolor 1
+     New_Page'toPush2Tosamplecolor 1
+     New_Page'toPush3Tosamplecolor 1
+     New_Page'toPush4Tosamplecolor 1
+     New_Page'toPush5Tosamplecolor 1
+     New_Page'toPush6Tosamplecolor 1
+     New_Page'toPushPhTogoBluePosition11 1
+     New_Page'toPushPhTogoGreenPosition12 1
+     New_Page'toPushPhTogoYellowPosition10 1
+     New_Page'toPushPhTogoYellowPosition13 1
+     New_Page'toPushPhTogoYellowPosition14 1
+     New_Page'toPushPhTogoYellowPosition15 1
+     New_Page'toPushPhTogoYellowPosition16 1
+
+  Live Transition Instances
+     New_Page'RootTocolorbucketU 1
+     New_Page'RootTodecidecolorCV 1
+     New_Page'RootTosamplecolor 1
+     New_Page'RootTotoBuild 1
+     New_Page'colorbucket0TotoBuild 1
+     New_Page'decidecolor0Tocolorbucket 1
+     New_Page'decidecolorKTosampleColorAcc4 1
+     New_Page'samplecolor0Todecidecolor 1
+     New_Page'samplecolorTosampleColorAcx2 1
+     New_Page'toBuild1Tosamplecolor 1
+     New_Page'toBuildTogoYellowPosition18 1
+
+
+ Fairness Properties
+------------------------------------------------------------------------
+
+  Impartial Transition Instances
+     New_Page'RootTocolorbucketU 1
+     New_Page'RootTodecidecolorCV 1
+     New_Page'RootTosamplecolor 1
+     New_Page'RootTotoBuild 1
+     New_Page'colorbucket0TotoBuild 1
+     New_Page'decidecolor0Tocolorbucket 1
+     New_Page'decidecolorKTosampleColorAcc4 1
+     New_Page'samplecolor0Todecidecolor 1
+     New_Page'samplecolorTosampleColorAcx2 1
+     New_Page'toBuild1Tosamplecolor 1
+     New_Page'toBuildTogoYellowPosition18 1
+
+  Fair Transition Instances
+     New_Page'RootTotoPushF 1
+     New_Page'colorbucket1TotoPush 1
+     New_Page'colorbucket2TotoPush 1
+     New_Page'colorbucket3Tosamplecolor 1
+     New_Page'decidecolor1Tosamplecolor 1
+     New_Page'init 1
+     New_Page'samplecolorFTosamplecolorBack 1
+     New_Page'status0TostatusBack 1
+     New_Page'status1Tosamplecolor 1
+     New_Page'toBuild0Tosamplecolor 1
+     New_Page'toBuildTogoRedPosition17 1
+     New_Page'toPush0Tosamplecolor 1
+     New_Page'toPush1Tosamplecolor 1
+     New_Page'toPush2Tosamplecolor 1
+     New_Page'toPush3Tosamplecolor 1
+     New_Page'toPush4Tosamplecolor 1
+     New_Page'toPush5Tosamplecolor 1
+     New_Page'toPush6Tosamplecolor 1
+     New_Page'toPushPhTogoBluePosition11 1
+     New_Page'toPushPhTogoGreenPosition12 1
+     New_Page'toPushPhTogoYellowPosition10 1
+     New_Page'toPushPhTogoYellowPosition13 1
+     New_Page'toPushPhTogoYellowPosition14 1
+     New_Page'toPushPhTogoYellowPosition15 1
+     New_Page'toPushPhTogoYellowPosition16 1
+     New_Page'tostatus 1
+
+  Just Transition Instances
+     None
+
+  Transition Instances with No Fairness
+     None
